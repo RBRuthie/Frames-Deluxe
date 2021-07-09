@@ -7,6 +7,8 @@ document.querySelector("#close").addEventListener("click", function() {
 })
 
 
+
+
 //  function to make pop-up
 
 const popup = document.querySelector(".pop-up");
