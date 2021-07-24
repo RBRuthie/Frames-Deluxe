@@ -17,5 +17,5 @@ window.onload = function(){
   setTimeout(function(){
     popup.style.display = "flex"
     //  time delay for pop-up
-  }, 3000)
+  }, 4000)
 }
