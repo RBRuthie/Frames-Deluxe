@@ -13,8 +13,8 @@
      <td>Customer Satisfaction Gallery</td>
   </tr>
   <tr>
-    <td><img src="img/frame-mainpage.png" width=270 ></td>
-    <td><img src="img/frame-product.png" width=270 ></td>
-    <td><img src="img/frame-gallery.png" width=270 ></td>
+    <td><img src="css/img/frame-mainpage.png" width=270 ></td>
+    <td><img src="css/img/frame-product.png" width=270 ></td>
+    <td><img src="css/img/frame-gallery.png" width=270 ></td>
   </tr>
  </table>
