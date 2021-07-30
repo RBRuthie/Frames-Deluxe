@@ -135,7 +135,9 @@ grid-template-columns: repeat(2, 1fr);
   text-decoration: none;
 }
 
-
+/**********************************
+     SECTION-A  -  MEDIA QUERIES
+***********************************/
 @media screen and  (max-width: 1323px){
   .container img{
     width: 100%;
@@ -339,6 +341,10 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   cursor:pointer; 
 }
 
+/****************************************
+     SECTION-B  -  MEDIA QUERIES
+****************************************/
+
 
 @media screen and (max-width: 499px) and (min-width: 400px){
   .section-b{
@@ -448,6 +454,11 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transform: scale(1.05);
 }
 
+
+
+/*******************************************
+     SECTION-C  -  MEDIA QUERIES
+********************************************/
 @media screen and (max-width: 399px) and (min-width: 300px){
   .gal-header {
       margin: 0 46px 50px 47px;
@@ -460,7 +471,7 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 
 /*************************************
-      section - D   -   POPUP
+      SECTION - D   -   POPUP
 **************************************/
   
 /* for the background overlay */
@@ -556,7 +567,9 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   color: #d65fca;
   cursor: pointer;
 }
-
+/***********************************
+  SECTION - D     QMDIA QUERIES
+*************************************/
 @media (max-width: 800px){
   .pop-up-content{
     width: 90%;
@@ -731,6 +744,9 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-bottom: 2px solid #fff;
 }
 
+/***********************************
+  section-footer  -  QMDIA QUERIES
+***************^^^^^^^^^^^^^*********/
 @media (max-width: 900px){
   .section-footer{
     margin-top: 18rem;
@@ -797,6 +813,13 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 }
 
+
+
+
+/***********************
+      QMDIA QUERIES
+************************/
+
 @media screen and (max-width: 499px) and (min-width: 400px){
   .section-footer {
     margin: -9px 0 0 0;
@@ -822,3 +845,12 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     font-size: 1.5rem;
   }
 }
+
+
+
+ /* 
+     when debugging css use this:
+      *{
+        border: 1px solid red;
+      }
+ */
