@@ -265,6 +265,15 @@ grid-template-columns: repeat(2, 1fr);
 /*******************************************
      SECTION-B  -  FEATURE PRODUCT
 ********************************************/
+
+.title-feature{
+  font-size: 2rem;
+  margin-bottom: 46px;
+  text-align: center;
+}
+.hr-line{
+  margin-top: 20px;
+}
 .title h6{
   padding: 5rem 0 0 0;
 }
@@ -394,9 +403,19 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 /*******************************************
      SECTION-C  -  IMAGE GALLERY
 ********************************************/
+
+.gallery-header{
+  padding-top: 76px;
+}
+
 .gal-header {
   font-size: 2rem;
-  margin: 0 46px 50px 47px;
+  margin: 0 46px 50px 47px; 
+  line-height: 1;
+}
+
+.hr-gallery{
+  margin-top: 18px;
 }
 .section-c {
   max-width: 105.2rem;
@@ -568,11 +587,12 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   cursor: pointer;
 }
 /***********************************
-  SECTION - D     QMDIA QUERIES
+  SECTION - D     MEDIA QUERIES
 *************************************/
 @media (max-width: 800px){
   .pop-up-content{
     width: 90%;
+    height: auto;
   }
   .pink-frames{
     max-width: 87%;
@@ -607,6 +627,13 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   } 
   .section-c .gallery{
     margin: -56px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 668px) and (min-width: 667px){
+  .pop-up-content{
+    width: 90%;
+    height: 96%;
   }
 }
 
@@ -730,6 +757,15 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-right: 0.5rem;
   line-height: .5rem;
 }
+
+.fa-twitter{
+  margin: 0 0px 0 -24px;
+}
+
+.fa-facebook{
+  margin: 18px 0px 37px 0;
+}
+
 .section-footer li  {
   line-height: 2.5rem;
 }
@@ -745,7 +781,7 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /***********************************
-  section-footer  -  QMDIA QUERIES
+  section-footer  -  MEDIA QUERIES
 ***************^^^^^^^^^^^^^*********/
 @media (max-width: 900px){
   .section-footer{
