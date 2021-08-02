@@ -269,7 +269,6 @@ grid-template-columns: repeat(2, 1fr);
 .title-feature{
   font-size: 2rem;
   margin-bottom: 46px;
-  text-align: center;
 }
 .hr-line{
   margin-top: 20px;
@@ -353,7 +352,11 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 /****************************************
      SECTION-B  -  MEDIA QUERIES
 ****************************************/
-
+@media (max-width: 831px){
+  .title-feature{
+    text-align: center;
+  }
+}
 
 @media screen and (max-width: 499px) and (min-width: 400px){
   .section-b{
@@ -361,6 +364,9 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   .section-b .container{
     margin: -40px 0 0 -25px;
+  }
+  .title-feature{
+  text-align: center;
   }
   .paragraph{
     margin-bottom: 31px;
@@ -383,6 +389,9 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   .section-b .container{
     margin: -40px 0 0 -45px;
+  }
+  .title-feature{
+    text-align: center;
   }
   .section-b .container .round,.cat-eye,.square{
     width: 80%;
