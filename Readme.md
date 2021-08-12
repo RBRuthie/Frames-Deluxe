@@ -2,8 +2,8 @@
 
 
 #### Frames Deluxe
-#### Designed and created a reponsive Eyewear themed landing page
-#### Created with HTML - CSS - JAVASCRIPT
+Designed and created a reponsive Eyewear themed landing page.
+Created with HTML / CSS / JAVASCRIPT
 
 
 <table>
