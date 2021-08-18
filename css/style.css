@@ -250,6 +250,12 @@ grid-template-columns: repeat(2, 1fr);
 .section-a .summer{
  font-size: 4rem;
 }
+
+.section-a .we-carry-paragraph{
+  font-size: 1.1rem;
+  text-align: center;
+  padding: 0 30px 0 30px;
+ }
 .section-a .first{
  font-size: 1rem;
  padding: 10px 23px;
@@ -370,6 +376,10 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   .paragraph{
     margin-bottom: 31px;
+    
+    /* font-size: 1.1rem;
+    text-align: center;
+    padding: 0 30px 0 30px; */
   }
   .section-b h6{
     text-align: center;
@@ -383,12 +393,12 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
-@media screen and (max-width: 399px) and (min-width: 300px){
+@media screen and (max-width: 399px) and (min-width: 360px){
   .section-b{
     padding: 0px;
   }
   .section-b .container{
-    margin: -40px 0 0 -45px;
+    margin: -40px 0 0 -36px;
   }
   .title-feature{
     text-align: center;
@@ -408,6 +418,40 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
 }
+
+@media screen and (max-width: 361px) and (min-width: 300px){
+  .section-b{
+    padding: 0px;
+  }
+  .section-b .container{
+    margin: -40px 0 0 -62px;
+  }
+  .title-feature{
+    text-align: center;
+  }
+  .section-b .container .round,.cat-eye,.square{
+    width: 80%;
+    height: auto;
+  }
+
+  .section-b .container .paragraph{
+    text-align: justify;
+    margin: 0 20px 0 20px;
+  }
+  .list-span-btn {
+    margin: 21px 0 13px 0px;
+  }
+  .versace .list-span-btn{
+    margin: 21px 0 13px 0px !important;
+  }
+  .section-b h6{
+    text-align: center;
+  }
+
+}
+
+
+
 
 /*******************************************
      SECTION-C  -  IMAGE GALLERY
@@ -688,45 +732,102 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 }
 
-@media screen and (max-width: 399px) and (min-width: 187px){
+@media screen and (max-width: 399px) and (min-width: 375px){
+  .pop-up-content{
+    width: 81%;
+  }
+  .pink-frames-div{
+    display: none;
+  }
+
+  .pop-up-content-text {
+  margin-left: 19px;
+  margin: -25px 0 0 -28px;
+  } 
+
+  .pop-up-content h3{
+    font-size: 1rem;
+    margin: 50px 0 18px 53px;
+  }
+
+  .pop-up-content h1{
+    font-size: 1.9rem;
+    margin: 15px -40px 0px 41px;
+  }
+
+  .pop-up-content  span{
+    margin: 20px 0 0px 20px;
+  }
+
+  .pop-up-content input{
+    margin-bottom: 15px;
+    width: 60%;
+    margin: 35px 0 10px 73px;
+  }
+
+  .pop-up-content .button{
+    margin-bottom: 15px;
+    width: 60%;
+    margin: 0px 0 14px 73px;
+  }
+
+  .pop-up-content h4{
+    font-size: .6rem;
+    margin: 0px 0px 8px 50px;
+  }
+
+  .pop-up-content h5{
+    font-size: .4rem;
+    margin: -13px 0 6px 64px;
+  }
+}
+@media screen and (max-width: 370px) and (min-width: 187px){
   .pop-up-content{
     width: 90%;
   }
   .pink-frames-div{
     display: none;
   }
+
   .pop-up-content-text {
   margin-left: 19px;
-  margin: -25px 0 0 -22px;
+  margin: -25px 0 0 -28px;
   } 
+
   .pop-up-content h3{
     font-size: 1rem;
-    margin: 50px 0 18px 80px;
+    margin: 50px 0 18px 53px;
   }
+
   .pop-up-content h1{
     font-size: 1.9rem;
-    margin: 15px -40px 0px 65px;
+    margin: 15px -40px 0px 41px;
   }
+
   .pop-up-content  span{
     margin: 20px 0 0px 20px;
   }
+
   .pop-up-content input{
     margin-bottom: 15px;
     width: 60%;
-    margin: 30px 0 10px 87px;
+    margin: 30px 0 10px 73px;
   }
+
   .pop-up-content .button{
     margin-bottom: 15px;
     width: 60%;
-    margin: 0px 0 14px 87px;
+    margin: 0px 0 14px 73px;
   }
+
   .pop-up-content h4{
     font-size: .6rem;
-    margin: 0px 0px 8px 68px;
+    margin: 0px 0px 8px 50px;
   }
+
   .pop-up-content h5{
     font-size: .4rem;
-    margin: -13px 0 6px 84px;
+    margin: -13px 0 6px 64px;
   }
 }
 
@@ -862,7 +963,7 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 
 /***********************
-      QMDIA QUERIES
+      MEDIA QUERIES
 ************************/
 
 @media screen and (max-width: 499px) and (min-width: 400px){
