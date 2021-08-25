@@ -507,6 +507,7 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   grid-row: 3 / span 2;
 }
 .gallery__item--6 {
+  margin-top: 0px;
   grid-column: 3 / span 1;
   grid-row: 4 / span 1;
 }
